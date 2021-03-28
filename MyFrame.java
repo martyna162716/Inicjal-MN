@@ -24,7 +24,7 @@ class Surface extends JPanel {
     }
     private void doDrawing(Graphics g) {
          Graphics2D g2d = (Graphics2D) g.create();
-        g2d.setPaint(Color.blue);
+        g2d.setPaint(Color.black);
         int xnoff = 150; 
         int ynoff = -30;
         int xmoff = -50;
